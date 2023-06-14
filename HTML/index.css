@@ -1,0 +1,55 @@
+.Main{
+    display: flex;
+}
+.body{
+    background: url(https://images.unsplash.com/photo-1589149098258-3e9102cd63d3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=739&q=80) no-repeat; 
+  background-size:cover;
+  background-position:0vw;
+  height:94dvb;
+  
+}
+.bgimage{
+    width: 200px;height:100px; 
+    margin-right: 200px;
+}
+.listing{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: blue; */
+    width: 50%;
+    list-style-type:none;
+    text-decoration: none !important;
+    color:aquamarine;
+}
+
+.listing a {
+    text-decoration: none;
+    color:aquamarine;
+}
+
+.foot{
+    margin-top: 0rem;
+    text-align: center;
+    padding: 23px;
+    background-color:white;
+    
+    position: fixed;
+    justify-content: space-between;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}
+.logo{
+    background-color: red;
+}
+
+.insta{
+    width: 21px;
+    height: 23px;
+    margin-right: 3rem;
+}
+.yout{
+    width: 10px;
+    height: 10px;
+    
+}
